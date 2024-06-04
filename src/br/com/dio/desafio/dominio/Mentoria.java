@@ -2,8 +2,7 @@ package br.com.dio.desafio.dominio;
 
 import java.time.LocalDate;
 
-public class Mentoria extends Conteudo{
-
+public class Mentoria extends Conteudo {
     private LocalDate data;
 
     @Override
@@ -13,6 +12,7 @@ public class Mentoria extends Conteudo{
 
     public Mentoria() {
     }
+
 
     public LocalDate getData() {
         return data;
@@ -30,4 +30,5 @@ public class Mentoria extends Conteudo{
                 ", data=" + data +
                 '}';
     }
+
 }
